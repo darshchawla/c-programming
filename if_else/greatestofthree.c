@@ -4,11 +4,11 @@ int main()
     int a;
     int b;
     int c;
-    printf("Enter first number : ");
+    printf("Enter 1st number : ");
     scanf("%d",&a);
-    printf('Enter second number : ');
+    printf("Enter 2nd number : ");
     scanf("%d",&b);
-    printf("Enter third number : ");
+    printf("Enter 3rd number : ");
     scanf("%d",&c);
     if(a>b && a>c){
         printf("%d is greatest",a);
