@@ -10,8 +10,11 @@ int main(){
     else if(y==0){
         printf("Lies on x-axis ");
     }
-    else{
+    else if(x==0){
         printf("Lies on y-axis");
+    }
+    else{
+        printf("The point does not lie on x or y axis");
     }
     return 0;
 }
