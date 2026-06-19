@@ -11,7 +11,7 @@ int main()
     if(a>b){ // b is out of race
         if(a>c)
             printf("%d is greatest",a);
-        else // a<c
+        else // a<c  -> b < a < c
             printf("%d is greatest",c);
     }
     else{ // b>a -> a ab sabse bada to nahi hai
