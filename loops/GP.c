@@ -9,13 +9,21 @@ int main (){
     //     printf("%d ",a);
     //     a = a * 2;
     // }
+    // int n;
+    // printf("Enter a number : ");
+    // scanf("%d",&n);
+    // int a = 3;
+    // for(int i=1;i<=n;i++){
+    //     printf("%d ",a);
+    //     a = a * 4;
+    // }
     int n;
     printf("Enter a number : ");
     scanf("%d",&n);
-    int a = 3;
+    float a = 100;
     for(int i=1;i<=n;i++){
-        printf("%d ",a);
-        a = a * 4;
+        printf("%f ",a);
+        a = a / 2;
     }
     return 0;
 }
