@@ -13,7 +13,7 @@ int main()
         }
         for (int j = 1; j <= nst; j++)
         {
-            printf("%d",j);
+            printf("*");
         }
 
         nst = nst + 2;
