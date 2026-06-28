@@ -1,7 +1,8 @@
 #include <stdio.h>
 int factorial(int n)
 {
-    if (n==1) return 1; // Base Case 
+    if (n == 1 || n == 0)
+        return 1; // Base Case
     return n * factorial(n - 1);
 }
 int main()
@@ -10,6 +11,6 @@ int main()
     printf("Enter a number : ");
     scanf("%d", &n);
     int fact = factorial(n);
-    printf("The factorial of %d is : %d",n, fact);
+    printf("The factorial of %d is : %d", n, fact);
     return 0;
 }
