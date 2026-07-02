@@ -8,11 +8,11 @@ int main()
         printf("\nEnter element number %d : ", a);
         scanf("%d", &arr[i]);
     }
-    int sum = 0;
+    int product = 1;
     for (int i = 0; i <= 4; i++)
     {
-        sum = sum + arr[i];
+        product = product * arr[i];
     }
-    printf("The sum of all the elements in the given array is : %d ", sum);
+    printf("The product of all the elements in the given array is : %d ", product);
     return 0;
 }
