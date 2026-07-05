@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     int r;
     printf("\nEnter number of rows : ");
     scanf("%d", &r);
@@ -25,11 +26,13 @@ int main(){
         printf("\n");
     }
     int sum = 0;
-    for(int i=0;i<r;i++){
-        for(int j=0;j<c;j++){
-            sum = sum  + arr[i][j];
+    for (int i = 0; i < r; i++)
+    {
+        for (int j = 0; j < c; j++)
+        {
+            sum = sum + arr[i][j];
         }
     }
-    printf("The sum of the given matrix is : %d",sum);
+    printf("The sum of the given matrix is : %d", sum);
     return 0;
 }
