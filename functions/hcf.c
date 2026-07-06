@@ -18,7 +18,7 @@ int gcd(int a, int b)
     // }
     for (int i = min(a, b); i >= 1; i--)
     {
-        if (a % i == 0 && a % i == 0)
+        if (a % i == 0 && b % i == 0)
         {
             hcf = i;
             break;
@@ -29,12 +29,12 @@ int gcd(int a, int b)
 int main()
 {
     int a;
-    printf("Enter first number : ");
+    printf("\nEnter first number : ");
     scanf("%d", &a);
     int b;
-    printf("Enter second number : ");
+    printf("\nEnter second number : ");
     scanf("%d", &b);
     int hcf = gcd(a, b);
-    printf("The HCF/GCD of %d and %d is : %d", a, b, hcf);
+    printf("\nThe HCF/GCD of %d and %d is : %d\n", a, b, hcf);
     return 0;
 }
