@@ -14,7 +14,7 @@ int main()
     a.numberofpages = 100;
 
     printf("\nThe name of the book a is : %s\n", a.name);
-    printf("\nThe price of the book is a : rupees %f\n", a.price);
+    printf("\nThe price of the book a is  : rupees %f\n", a.price);
     printf("\nNumber of pages in the book a are : %d\n", a.numberofpages);
 
     strcpy(b.name, "Harry Potter");
@@ -30,7 +30,7 @@ int main()
     c.numberofpages = 462;
 
     printf("\nThe name of the book c is : %s\n", c.name);
-    printf("\nThe price of the book is c : rupees %f\n", c.price);
+    printf("\nThe price of the book c is : rupees %f\n", c.price);
     printf("\nNumber of pages in the book c are : %d\n", c.numberofpages);
 
     return 0;
