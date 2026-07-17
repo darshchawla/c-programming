@@ -2,7 +2,7 @@
 #include <string.h>
 int main()
 {
-    struct book
+    struct students
     {
         char name[50];
         float rollnumber;
