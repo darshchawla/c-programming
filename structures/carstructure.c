@@ -14,7 +14,7 @@ int main()
     a.modelyear = 2025;
 
     printf("\nThe name of the car a is : %s\n", a.name);
-    printf("\nThe price of the car a is  : %f\n", a.price);
+    printf("\nThe price of the car a is  : ₹%f\n", a.price);
     printf("\nmodel year of car a  is : %d\n", a.modelyear);
 
     strcpy(b.name, "BMW");
@@ -22,7 +22,7 @@ int main()
     b.modelyear = 2025;
 
     printf("\nThe name of the car b is : %s\n", b.name);
-    printf("\nThe price of the car b is : %f\n", b.price);
+    printf("\nThe price of the car b is : ₹%f\n", b.price);
     printf("\nModel year of car b is : %d\n", b.modelyear);
 
     return 0;
